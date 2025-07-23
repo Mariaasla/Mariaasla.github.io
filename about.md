@@ -1,4 +1,12 @@
+---
+title: About
+layout: page
+---
 
+<!-- Optional: remove image or replace with your own -->
+{%- if site.picture and site.external-image == false -%}
+<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" style="max-width: 180px; border-radius: 100px;">
+{%- endif -%}
 
 ## 👋 Hi, I'm Maria Aslanidou
 
