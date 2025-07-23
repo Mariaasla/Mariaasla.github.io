@@ -4,8 +4,13 @@ email: mariaasla391@gmail.com
 description: >-
   Physicist turned data scientist. Experienced in Python, machine learning, and satellite data analysis. Passionate about solving real-world problems through data.
 url: "https://mariaasla.github.io"
-baseurl: "" # VERY IMPORTANT – do not remove quotes
+baseurl: ""
+
+remote_theme: sergiokopplin/indigo@gh-pages
 
 markdown: kramdown
 highlighter: rouge
-theme: minima
+paginate: 5
+
+github_username: Mariaasla
+linkedin_username: maria-aslanidou-48869a321
