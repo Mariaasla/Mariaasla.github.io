@@ -1,16 +1,90 @@
-name: Maria Aslanidou
-title: Data Scientist | Astrophysicist
+# main text of home
+title: Maria Aslanidou
+bio: Physicist turned data scientist. Passionate about machine learning, satellite data, and impactful solutions.
+
+# twitter summary info
+description: Data science projects, astrophysics, and space-tech analytics.
+
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
+
+# your site color theme
+dark-theme: auto
+
+# If you want to include your resume
+resume: true
+resume-external: true
+resume-url: https://example.com/MariaAslanidou-Resume.pdf # Replace with actual URL
+
+url: https://mariaasla.github.io
+permalink: /:title/
+
+# Analytics (optional)
+# analytics-google: 'UA-XXXXXXXXX-X'
+
+# Comments
+disqus:
+  shortname: mariaasla
+  categories: [blog, project]
+
+# Socials
+facebook:
+twitter:
+instagram:
+linkedin: maria-aslanidou-48869a321
+github: Mariaasla
 email: mariaasla391@gmail.com
-description: >-
-  Physicist turned data scientist. Experienced in Python, machine learning, and satellite data analysis. Passionate about solving real-world problems through data.
-url: "https://mariaasla.github.io"
-baseurl: ""
 
-remote_theme: sergiokopplin/indigo@gh-pages
+authors:
+  mariaaslanidou:
+    name: Maria Aslanidou
+    bio: MSc Astrophysics | Data Scientist | ML & Python Enthusiast
+    external-image: false
+    picture: assets/images/profile.jpg
+    twitter:
 
-markdown: kramdown
-highlighter: rouge
-paginate: 5
+# Layout options
+width: normal
 
-github_username: Mariaasla
-linkedin_username: maria-aslanidou-48869a321
+# Features
+projects: true
+about: true
+blog: true
+read-time: true
+show-tags: true
+related: true
+post-advance-links: [blog]
+show-author: true
+animation: true
+
+# Default values for posts
+defaults:
+  - scope:
+      path: ""
+      layout: "post"
+    values:
+      hidden: false
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
+exclude:
+  [
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "vendor",
+  ]
