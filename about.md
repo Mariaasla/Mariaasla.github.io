@@ -2,44 +2,44 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- Optional: remove image or replace with your own -->
+{%- if site.picture and site.external-image == false -%}
+<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" style="max-width: 180px; border-radius: 100px;">
+{%- endif -%}
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+## 👋 Hi, I'm Maria Aslanidou
 
-<h2>Skills</h2>
+I'm a physicist turned data scientist with a strong background in computational research and space data analysis.
+
+- 🎓 MSc in Astronomy & Astrophysics (University of Amsterdam & VU)
+- 🛰️ Co-founder of **EnviroCopilot** – a space-tech startup for satellite health alerts
+- 🛠️ Skills: Python, SQL, Scikit-learn, Jupyter, Git, Tableau, Snowflake
+- 🧠 Interests: machine learning, Earth observation, astrophysics, scientific computing
+- 🥇 Winner of **CASSINI Hackathon** (Greece) and finalist in the EU round
+- 🧾 Currently co-authoring a paper in *Astronomy & Astrophysics*
+
+## 📬 Let's Connect
+
+- 💼 [LinkedIn](https://linkedin.com/in/maria-aslanidou-48869a321)
+- 💻 [GitHub](https://github.com/Mariaasla)
+- 📄 [Resume (PDF)](https://example.com/your-resume.pdf) <!-- Replace with real link -->
+
+## 🛠 Skills
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Tests)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Python, SQL, Git</li>
+	<li>Data Wrangling & Visualization</li>
+	<li>Machine Learning & Scientific Computing</li>
+	<li>Tools: Jupyter, Scikit-learn, Snowflake, Tableau</li>
+	<li>Space & Satellite Data Analysis</li>
 </ul>
 
-<h2>Projects</h2>
+## 🚀 Projects
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/Mariaasla/envirocopilot">EnviroCopilot – ML for Satellite Health Alerts</a></li>
+	<li><a href="https://github.com/Mariaasla/supernova-expansion">Supernova Expansion Rate Analysis</a></li>
+	<li><a href="https://github.com/Mariaasla/fraud-detection-mlh">Fraud Detection Model – MLH Hackathon</a></li>
 </ul>
+
