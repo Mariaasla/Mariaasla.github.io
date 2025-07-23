@@ -8,7 +8,7 @@ description: Data science projects, astrophysics, and space-tech analytics.
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture:
 
 # your site color theme
 dark-theme: auto
