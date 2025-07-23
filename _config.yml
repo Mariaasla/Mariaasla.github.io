@@ -1,13 +1,11 @@
 name: Maria Aslanidou
 title: Data Scientist | Astrophysicist
 email: mariaasla391@gmail.com
-description: >
+description: >-
   Physicist turned data scientist. Experienced in Python, machine learning, and satellite data analysis. Passionate about solving real-world problems through data.
 url: "https://mariaasla.github.io"
-baseurl: ""
-github_username: Mariaasla
-linkedin_username: maria-aslanidou-48869a321
+baseurl: "" # VERY IMPORTANT – do not remove quotes
 
 markdown: kramdown
 highlighter: rouge
-paginate: 5
+theme: minima
