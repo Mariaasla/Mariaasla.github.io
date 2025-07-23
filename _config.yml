@@ -41,8 +41,8 @@ authors:
   mariaaslanidou:
     name: Maria Aslanidou
     bio: MSc Astrophysics | Data Scientist | ML & Python Enthusiast
-    external-image: false
-    picture: assets/images/profile.jpg
+    #external-image: false
+    #picture: assets/images/profile.jpg
     twitter:
 
 # Layout options
